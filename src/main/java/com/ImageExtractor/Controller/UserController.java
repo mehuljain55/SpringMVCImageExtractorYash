@@ -29,7 +29,7 @@ public class UserController {
     public String uploadImage(@ModelAttribute("file") MultipartFile file) {
         String status = userService.uploadImage(file);
         System.out.println("Upload Status: " + status);
-        return "redirect:/uploadImagePage";
+        return "redirect:/upload";
     }
 
     @GetMapping("/viewImages")
