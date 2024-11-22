@@ -12,6 +12,6 @@
 
 
     <br>
-    <a href="images">View Uploaded Images</a>
+    <a href="viewImages">View Uploaded Images</a>
 </body>
 </html>
